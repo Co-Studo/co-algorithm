@@ -1,0 +1,29 @@
+{
+  "2줄 이상 입력시": {
+    "prefix": "multi",
+    "body": [
+      "const readline = require('readline');\n",
+      "const rl = readline.createInterface({",
+      "\tinput: process.stdin,",
+      "\toutput: process.stdout,",
+      "});\n",
+      "const input = [];\n",
+      "const solution = (input) => {",
+      "\tlet answer = 0;",
+      "\treturn answer;",
+      "};\n",
+      "rl.on('line', (answer) => {",
+      "\tinput.push(answer.trim());",
+      "}).on('close', () => {",
+      "\tconsole.log(solution(input));",
+      "});"
+    ]
+  },
+  "fs 사용": {
+    "prefix": "use-fs",
+    "body": [
+      "const fs = require(\"fs\");",
+      "const [] = fs.readFileSync(\"/dev/stdin\").toString().trim().split(\"\\n\");"
+    ]
+  }
+}
