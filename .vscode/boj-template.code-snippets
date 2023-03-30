@@ -19,6 +19,24 @@
       "});"
     ]
   },
+  "1줄 입력시": {
+    "prefix": "single",
+    "body": [
+      "const readline = require('readline');\n",
+      "const rl = readline.createInterface({",
+      "\tinput: process.stdin,",
+      "\toutput: process.stdout,",
+      "});\n",
+      "const solution = (input) => {",
+      "\tlet answer = 0;",
+      "\treturn answer;",
+      "};\n",
+      "rl.on('line', (answer) => {",
+      "\tconsole.log(solution(answer));",
+      "\trl.close();",
+      "});"
+    ]
+  },
   "fs 사용": {
     "prefix": "use-fs",
     "body": [
