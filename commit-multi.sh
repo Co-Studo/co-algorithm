@@ -18,6 +18,6 @@ do
     fi
 done
 
-# git push origin main
+git push origin main
 
-# echo "> ✅ push complete"
+echo "> ✅ push complete"
