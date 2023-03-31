@@ -8,4 +8,8 @@
 
 - `npm run commit`
 
+### 문제를 여러 개 풀었을 시
+
+- `npm run commit:multi`
+
 - reference : https://github.com/encrypted-def/basic-algo-lecture
