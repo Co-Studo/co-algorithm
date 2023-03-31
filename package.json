@@ -1,5 +1,6 @@
 {
   "scripts": {
-    "commit": "sh commit.sh BOJ"
+    "commit": "sh commit.sh BOJ",
+    "commit:multi": "sh commit-multi.sh BOJ"
   }
 }
